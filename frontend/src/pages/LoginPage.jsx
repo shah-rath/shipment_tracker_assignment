@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = 'https://dapper-starship-88f08b.netlify.app/api';
+const API_URL = 'https://shipment-tracker-assignment.onrender.com/api';
 
 const Logo = () => <svg className="h-12 w-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M3.75 18h16.5M4.5 14.25h15M5.25 10.5h13.5M12 3.75l3 3m-3-3l-3 3" /></svg>;
 
