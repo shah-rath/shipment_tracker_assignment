@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
-const API_URL = 'http://localhost:3001/api/shipments';
+const API_URL = 'https://shipment-tracker-assignment.onrender.com/api/shipments';
 const STATUS_OPTIONS = ["Pending", "In Transit", "Delivered", "Cancelled"];
 
 const ShipmentForm = ({ shipmentToEdit, onSave, onClose, userId }) => {
